@@ -1,0 +1,16 @@
+E:\Programing\DotNet\FindMechine\FindMechine\bin\Debug\net5.0\FindMechine.exe
+E:\Programing\DotNet\FindMechine\FindMechine\bin\Debug\net5.0\FindMechine.deps.json
+E:\Programing\DotNet\FindMechine\FindMechine\bin\Debug\net5.0\FindMechine.runtimeconfig.json
+E:\Programing\DotNet\FindMechine\FindMechine\bin\Debug\net5.0\FindMechine.runtimeconfig.dev.json
+E:\Programing\DotNet\FindMechine\FindMechine\bin\Debug\net5.0\FindMechine.dll
+E:\Programing\DotNet\FindMechine\FindMechine\bin\Debug\net5.0\FindMechine.pdb
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.AssemblyInfoInputs.cache
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.AssemblyInfo.cs
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.csproj.CoreCompileInputs.cache
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.dll
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\ref\FindMechine.dll
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.pdb
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.genruntimeconfig.cache
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\FindMechine.csproj.AssemblyReference.cache
+E:\Programing\DotNet\FindMechine\FindMechine\obj\Debug\net5.0\refint\FindMechine.dll
