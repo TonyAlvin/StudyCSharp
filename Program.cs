@@ -48,9 +48,11 @@ namespace findMechine2
         static void Main(string[] args)
         {
             Console.WriteLine("Begin Process...");
+            // 三个子线程，顺序无关，异步执行
             Task.Run(() => { read_line(); });   // 开启一个线程去从文件读取数据，放到输入队列里
             Task.Run(() => { replace_line(); });// 开启一个线程去从输入队列中取数据，处理完成后，放到输出队列里
             Task.Run(() => { dispay_line(); }); // 开启一个线程从输出队列中取数据，取到后放到显示出来
+            Console.WriteLine("Any key to exit...");
             Console.ReadKey(true);              // 等待按键以结束程序，否则主线程结束后，创建的几个线程会被结束。
         }
     }
