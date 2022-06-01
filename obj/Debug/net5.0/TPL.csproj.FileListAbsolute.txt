@@ -1,0 +1,16 @@
+E:\Programing\DotNet\TPL\bin\Debug\net5.0\TPL.exe
+E:\Programing\DotNet\TPL\bin\Debug\net5.0\TPL.deps.json
+E:\Programing\DotNet\TPL\bin\Debug\net5.0\TPL.runtimeconfig.json
+E:\Programing\DotNet\TPL\bin\Debug\net5.0\TPL.runtimeconfig.dev.json
+E:\Programing\DotNet\TPL\bin\Debug\net5.0\TPL.dll
+E:\Programing\DotNet\TPL\bin\Debug\net5.0\TPL.pdb
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.csproj.AssemblyReference.cache
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.AssemblyInfoInputs.cache
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.AssemblyInfo.cs
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.csproj.CoreCompileInputs.cache
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.dll
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\refint\TPL.dll
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.pdb
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\TPL.genruntimeconfig.cache
+E:\Programing\DotNet\TPL\obj\Debug\net5.0\ref\TPL.dll
