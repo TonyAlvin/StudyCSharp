@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programing\\DotNet\\FindMechine2\\FindMechine2.csproj": {}
+    "E:\\Programing\\DotNet\\FindMechine3\\FindMechine2.csproj": {}
   },
   "projects": {
-    "E:\\Programing\\DotNet\\FindMechine2\\FindMechine2.csproj": {
+    "E:\\Programing\\DotNet\\FindMechine3\\FindMechine2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programing\\DotNet\\FindMechine2\\FindMechine2.csproj",
+        "projectUniqueName": "E:\\Programing\\DotNet\\FindMechine3\\FindMechine2.csproj",
         "projectName": "FindMechine2",
-        "projectPath": "E:\\Programing\\DotNet\\FindMechine2\\FindMechine2.csproj",
+        "projectPath": "E:\\Programing\\DotNet\\FindMechine3\\FindMechine2.csproj",
         "packagesPath": "C:\\Users\\26806\\.nuget\\packages\\",
-        "outputPath": "E:\\Programing\\DotNet\\FindMechine2\\obj\\",
+        "outputPath": "E:\\Programing\\DotNet\\FindMechine3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\26806\\AppData\\Roaming\\NuGet\\NuGet.Config",
