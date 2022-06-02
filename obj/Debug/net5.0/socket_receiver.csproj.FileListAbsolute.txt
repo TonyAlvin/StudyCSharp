@@ -1,0 +1,16 @@
+E:\Programing\DotNet\socket_receiver\bin\Debug\net5.0\socket_receiver.exe
+E:\Programing\DotNet\socket_receiver\bin\Debug\net5.0\socket_receiver.deps.json
+E:\Programing\DotNet\socket_receiver\bin\Debug\net5.0\socket_receiver.runtimeconfig.json
+E:\Programing\DotNet\socket_receiver\bin\Debug\net5.0\socket_receiver.runtimeconfig.dev.json
+E:\Programing\DotNet\socket_receiver\bin\Debug\net5.0\socket_receiver.dll
+E:\Programing\DotNet\socket_receiver\bin\Debug\net5.0\socket_receiver.pdb
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.csproj.AssemblyReference.cache
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.AssemblyInfoInputs.cache
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.AssemblyInfo.cs
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.csproj.CoreCompileInputs.cache
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.dll
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\refint\socket_receiver.dll
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.pdb
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\socket_receiver.genruntimeconfig.cache
+E:\Programing\DotNet\socket_receiver\obj\Debug\net5.0\ref\socket_receiver.dll
