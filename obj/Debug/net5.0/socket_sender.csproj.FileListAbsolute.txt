@@ -1,0 +1,16 @@
+E:\Programing\DotNet\socket_sender\bin\Debug\net5.0\socket_sender.exe
+E:\Programing\DotNet\socket_sender\bin\Debug\net5.0\socket_sender.deps.json
+E:\Programing\DotNet\socket_sender\bin\Debug\net5.0\socket_sender.runtimeconfig.json
+E:\Programing\DotNet\socket_sender\bin\Debug\net5.0\socket_sender.runtimeconfig.dev.json
+E:\Programing\DotNet\socket_sender\bin\Debug\net5.0\socket_sender.dll
+E:\Programing\DotNet\socket_sender\bin\Debug\net5.0\socket_sender.pdb
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.csproj.AssemblyReference.cache
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.AssemblyInfoInputs.cache
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.AssemblyInfo.cs
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.csproj.CoreCompileInputs.cache
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.dll
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\refint\socket_sender.dll
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.pdb
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\socket_sender.genruntimeconfig.cache
+E:\Programing\DotNet\socket_sender\obj\Debug\net5.0\ref\socket_sender.dll
