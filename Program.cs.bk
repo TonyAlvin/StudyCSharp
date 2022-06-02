@@ -1,0 +1,60 @@
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace TPL
+{
+    class Program
+    {
+        ////////////////////////////////////委托/////////////////////////////////////
+        public delegate string MyDelegate(int ms);
+        static string MyMetod(int ms)
+        {
+            Console.WriteLine("bigen method..");
+            Thread.Sleep(ms);
+            Console.WriteLine("methid finished");
+            return "Hello World!";
+        }
+        static string MyMetod2(int ms)
+        {
+            Console.WriteLine("bigen method2..");
+            Thread.Sleep(ms);
+            Console.WriteLine("methid finished");
+            return "Hello World!";
+        }
+        ////////////////////////////////////事件/////////////////////////////////////
+        public delegate void ReadFinish(string path);
+        private static event ReadFinish onReadFinish;
+        ////////////////////////////////////Task/////////////////////////////////////
+        private static void TaskMethod()
+        {
+            while(true)
+            {
+                Console.WriteLine($"Task id = {Task.CurrentId}");
+                Thread.Sleep(500);
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            Console.WriteLine($"Task id = {Task.CurrentId}");
+            ////////////////委托////////////////////////
+            MyDelegate del_test = MyMetod;
+            del_test += MyMetod2;
+            del_test -= MyMetod;
+            // del_test(1000);
+            ////////////////事件////////////////////////
+            string path = "./input";
+            onReadFinish += (input) => { Console.WriteLine($"触发了一个事件,文件{input}"); }; 
+
+            onReadFinish(path); // 触发事件
+            ////////////////task////////////////////////
+            Task task_test1 = new Task(TaskMethod);
+            Task task_test2 = new Task(TaskMethod);
+            task_test1.Start();
+            task_test2.Start();
+            Console.ReadKey();
+        }
+    }
+}
