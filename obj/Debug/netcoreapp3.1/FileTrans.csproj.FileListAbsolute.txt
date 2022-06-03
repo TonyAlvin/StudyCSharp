@@ -1,0 +1,14 @@
+E:\Programing\DotNet\FileTrans\bin\Debug\netcoreapp3.1\FileTrans.exe
+E:\Programing\DotNet\FileTrans\bin\Debug\netcoreapp3.1\FileTrans.deps.json
+E:\Programing\DotNet\FileTrans\bin\Debug\netcoreapp3.1\FileTrans.runtimeconfig.json
+E:\Programing\DotNet\FileTrans\bin\Debug\netcoreapp3.1\FileTrans.runtimeconfig.dev.json
+E:\Programing\DotNet\FileTrans\bin\Debug\netcoreapp3.1\FileTrans.dll
+E:\Programing\DotNet\FileTrans\bin\Debug\netcoreapp3.1\FileTrans.pdb
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.csproj.AssemblyReference.cache
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.AssemblyInfoInputs.cache
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.AssemblyInfo.cs
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.csproj.CoreCompileInputs.cache
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.dll
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.pdb
+E:\Programing\DotNet\FileTrans\obj\Debug\netcoreapp3.1\FileTrans.genruntimeconfig.cache
