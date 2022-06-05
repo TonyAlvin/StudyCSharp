@@ -89,9 +89,15 @@ namespace FileTrans
         }
         public int recv(byte[] buffer)
         {
-            return socket_commu.Receive(buffer);
+            try
+            {
+                return socket_commu.Receive(buffer);
+            }
+            catch
+            {
+                return -1;
+            }
         }
-
     }
 
     struct DataRecv
@@ -102,17 +108,24 @@ namespace FileTrans
     class Program
     {
         static SocketConnection connection1;
+        static FileStream f;
+        static BinaryWriter bf;
         private static ActionBlock<DataRecv> fileWriteBlock = new ActionBlock<DataRecv>((input) =>
         {
-            using (FileStream f = new FileStream("./output.docx", FileMode.Create, FileAccess.ReadWrite))
+            if (input.length >= 0)
             {
                 byte[] writeTemp = new byte[input.length];
                 writeTemp = input.buffer;
-                BinaryWriter bf = new BinaryWriter(f);
                 Console.WriteLine("writing file.");
                 bf.Write(writeTemp);
             }
+            else
+            {
+                bf.Close();
+                f.Close();
+            }
         });
+
         private static TransformBlock<byte[], byte[]> fileReadBlock = new TransformBlock<byte[], byte[]>(p => p);
         private static TransformBlock<byte[], DataRecv> socketRecBlock = new TransformBlock<byte[], DataRecv>(buffer =>
         {
@@ -131,24 +144,39 @@ namespace FileTrans
         {
             fileReadBlock.LinkTo(socketTransBlock);
             socketRecBlock.LinkTo(fileWriteBlock);
+            string file_name = "";
 
             connection1 = new SocketConnection();
             connection1.connect(1); // 建立连接
 
-            if (connection1.isclient)
+            while (true)
             {
-                Task.Run(() =>
+                Console.Write("Input the file name:");
+                file_name = "./" + Console.ReadLine();
+                try
                 {
-                    byte[] recbuf = new byte[200];
-                    socketRecBlock.Post(recbuf);
-                });
+                    FileStream f = new FileStream(file_name, FileMode.Create, FileAccess.ReadWrite);
+                    break;
+                }
+                catch (System.IO.IOException)
+                {
+                    Console.WriteLine("file open fieled.");
+                }
             }
-            else
+            Task.Run(() =>
             {
-                Task.Run(() =>
+                if (connection1.isclient)
                 {
-                    FileStream input = new FileStream("./input.docx", FileMode.Open, FileAccess.Read);
-                    BinaryReader binInput = new BinaryReader(input);
+                    bf = new BinaryWriter(f);
+                    while (true)
+                    {
+                        byte[] recbuf = new byte[200];
+                        socketRecBlock.Post(recbuf);
+                    }
+                }
+                else
+                {
+                    BinaryReader binInput = new BinaryReader(f);
                     while (true)
                     {
                         try
@@ -161,9 +189,8 @@ namespace FileTrans
                             break;
                         }
                     }
-                });
-            }
-
+                }
+            });
             Console.WriteLine("trans finished.");
             Console.ReadKey(true);
         }
