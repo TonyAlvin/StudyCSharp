@@ -170,8 +170,15 @@ namespace FileTrans
                     bf = new BinaryWriter(f);
                     while (true)
                     {
+                        try
+                        {
                         byte[] recbuf = new byte[200];
                         socketRecBlock.Post(recbuf);
+                        }
+                        catch
+                        {
+                            break;
+                        }
                     }
                 }
                 else
