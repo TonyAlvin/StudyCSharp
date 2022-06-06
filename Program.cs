@@ -9,16 +9,16 @@ namespace FileTrans
 {
     class SocketConnection
     {
-        public IPAddress ips;
+        public IPAddress ips;       // ip地址
         public IPEndPoint ipnode;
-        public int socketport;
-        public bool isclient { get; }
-        private Socket socket_commu;
-        private Socket socket_ser_listener;
+        public int socketport;      // 可连接数量
+        public bool isclient { get; }   // 服务器还是客户端
+        private Socket socket_commu;    // 数据传输
+        private Socket socket_ser_listener; // 监听
 
         public SocketConnection()
         {
-            socketport = 80;
+            socketport = 80;    // 80端口
             ConsoleKey key_input;
             string ipinput = null;
             while (true)
