@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pi/PROG/test/test.csproj": {}
+  },
+  "projects": {
+    "/home/pi/PROG/test/test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pi/PROG/test/test.csproj",
+        "projectName": "test",
+        "projectPath": "/home/pi/PROG/test/test.csproj",
+        "packagesPath": "/home/pi/.nuget/packages/",
+        "outputPath": "/home/pi/PROG/test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/pi/dotnet/sdk/3.1.419/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

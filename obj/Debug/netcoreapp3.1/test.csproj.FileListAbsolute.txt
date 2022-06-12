@@ -1,0 +1,13 @@
+/home/pi/PROG/test/bin/Debug/netcoreapp3.1/test
+/home/pi/PROG/test/bin/Debug/netcoreapp3.1/test.deps.json
+/home/pi/PROG/test/bin/Debug/netcoreapp3.1/test.runtimeconfig.json
+/home/pi/PROG/test/bin/Debug/netcoreapp3.1/test.runtimeconfig.dev.json
+/home/pi/PROG/test/bin/Debug/netcoreapp3.1/test.dll
+/home/pi/PROG/test/bin/Debug/netcoreapp3.1/test.pdb
+/home/pi/PROG/test/obj/Debug/netcoreapp3.1/test.csprojAssemblyReference.cache
+/home/pi/PROG/test/obj/Debug/netcoreapp3.1/test.AssemblyInfoInputs.cache
+/home/pi/PROG/test/obj/Debug/netcoreapp3.1/test.AssemblyInfo.cs
+/home/pi/PROG/test/obj/Debug/netcoreapp3.1/test.csproj.CoreCompileInputs.cache
+/home/pi/PROG/test/obj/Debug/netcoreapp3.1/test.dll
+/home/pi/PROG/test/obj/Debug/netcoreapp3.1/test.pdb
+/home/pi/PROG/test/obj/Debug/netcoreapp3.1/test.genruntimeconfig.cache
