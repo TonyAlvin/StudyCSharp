@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "decompreress/dotnet global tool.md",
+                "file": "decompreress/nuget.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c1a4884b6d5be343",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "decompreress/dotnet global tool.md",
+                "file": "decompreress/nuget.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "decompreress/dotnet global tool.md",
+                "file": "decompreress/nuget.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "decompreress/dotnet global tool.md"
+                "file": "decompreress/nuget.md"
               }
             }
           }
@@ -138,13 +139,13 @@
   },
   "active": "9f28bb8a577d6dc2",
   "lastOpenFiles": [
+    "decompreress/dotnet global tool.md",
     "decompreress/分帧工具.md",
     "decompreress/十一月份安排.md",
     "decompreress/nuget.md",
     "decompreress/img/Pasted image 20221109144354.png",
     "] BaGet.md",
     "decompreress/BaGet.md",
-    "decompreress/dotnet global tool.md",
     "decompreress/img/Pasted image 20221109144433.png",
     "decompreress/img/Pasted image 20221109150905.png",
     "decompreress/img/Pasted image 20221109144559.png"

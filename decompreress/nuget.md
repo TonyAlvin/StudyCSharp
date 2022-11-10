@@ -11,6 +11,9 @@
 
 ### 添加和管理包
 
+
+### 项目中的包
+
 常用的命令
 ```
 	dotnet add package <package_name>    // 添加一个包
@@ -21,7 +24,14 @@
 	dotnet remove package <package_name>  // 从项目中移除一个包
 ```
 
-### 项目中的包
+如何使用一个包（以）
+
+在项目中要用到包内的功能时,需要先using相应的包
+```
+	using Newtonsoft.Json;
+```
+随后包内的类, 定义的符号等都可以正常使用.
+
 项目中包含的包可以在项目的`` .csproj ``中查看,如下所示的项目文件中引用了`` Newtonsoft.Json ``包
 ```
 <Project Sdk="Microsoft.NET.Sdk">
@@ -40,14 +50,22 @@
 </Project>
 ```
 
-在项目中要用到包内的功能时,需要先using相应的包
-```
-	using Newtonsoft.Json;
-```
-随后包内的类, 定义的符号等都可以正常使用.
+
 
 ### 创建包
+
+
 ### 发布包
+将给定服务器 URL 的 API 密钥保存到`NuGet.Config`。
+```
+	nuget setApiKey <API KEY> -Source <nuget服务器>
+```
+API KEY一般由网站所有者提供。
+
+发布：
+```
+	nuget push xxx.nupkg -Source <nuget服务器> -ApiKey <API KEY>
+```
 ### 私人nuget服务器
 有些时候我们写的程序过于先进, 不适合在互联网上传播. 但我们又要在内部网或多台电脑之间共享nuget包怎么办呢. 
 直接用U盘或者其他途径共享`` .nupkg `` 文件的方法也不是不行, 但明显不太优雅. 我们想要有一台自己的nuget服务器! 
