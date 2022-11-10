@@ -1,0 +1,1 @@
+WIN-LGSB4OQDK6A\hp LaserJet 1320 PCL 5

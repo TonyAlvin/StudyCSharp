@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "81fd7ed4c221a6a4",
+    "id": "5ddba794e19764de",
     "type": "split",
     "children": [
       {
-        "id": "55efd32057befb92",
+        "id": "7eba40a99374f042",
         "type": "tabs",
         "children": [
           {
-            "id": "9f28bb8a577d6dc2",
+            "id": "04afd9368eac3fba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,32 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a97613b0f7282cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "decompreress/dotnet global tool.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1499c5225b368e32",
+    "id": "25ef23a58a8f7a23",
     "type": "split",
     "children": [
       {
-        "id": "6c88698b8e6377a6",
+        "id": "e24eae2a74011661",
         "type": "tabs",
         "children": [
           {
-            "id": "f98d2eb5f54f9f45",
+            "id": "530a917299ff44ef",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "170a8b5c0cea9b72",
+            "id": "bccd822b0b74fc13",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +71,7 @@
             }
           },
           {
-            "id": "1a4bbaf15acca996",
+            "id": "84deb6a946831e22",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,23 +82,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "c1a4884b6d5be343",
+    "id": "6d413c7b5df177f7",
     "type": "split",
     "children": [
       {
-        "id": "1206076157a096f1",
+        "id": "3c816d72c0fc9d64",
         "type": "tabs",
         "children": [
           {
-            "id": "d1d8fbd77c6ff8a4",
+            "id": "06771ea9368708fb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "decompreress/nuget.md",
+                "file": "decompreress/dotnet global tool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +111,19 @@
             }
           },
           {
-            "id": "09e21683ff98d165",
+            "id": "db6b6bf7ac5df805",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "decompreress/nuget.md",
+                "file": "decompreress/dotnet global tool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5e212e6fe6d228b8",
+            "id": "b6bb466dde014319",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +134,12 @@
             }
           },
           {
-            "id": "7df8b3fb6388c449",
+            "id": "e3f302b371d25c1d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "decompreress/nuget.md"
+                "file": "decompreress/dotnet global tool.md"
               }
             }
           }
@@ -136,17 +150,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f28bb8a577d6dc2",
+  "active": "a97613b0f7282cbf",
   "lastOpenFiles": [
-    "decompreress/dotnet global tool.md",
-    "decompreress/十一月份安排.md",
     "decompreress/nuget.md",
     "decompreress/BaGet.md",
-    "decompreress/分帧工具.md",
-    "decompreress/img/Pasted image 20221109144354.png",
-    "] BaGet.md",
-    "decompreress/img/Pasted image 20221109144433.png",
-    "decompreress/img/Pasted image 20221109150905.png",
-    "decompreress/img/Pasted image 20221109144559.png"
+    "decompreress/dotnet global tool.md",
+    "decompreress/十一月份安排.md",
+    "恶补基础/响应式编程.md"
   ]
 }
