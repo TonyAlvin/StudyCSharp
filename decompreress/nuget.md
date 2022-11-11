@@ -4,7 +4,7 @@
 这是一个.NET平台的包(package)管理工具.
 简单的讲, 我们可以使用nuget把自己写的程序打包, 上传. 也可以下载到已经打包好的程序.
 
-![[Pasted image 20221109144559.png]]
+![[./img/Pasted image 20221109144559.png]]
 ## how 如何使用
 
 这里我们使用CLI工具, 这种方式最接近底层, 界面工具可以理解为对CLI工具的封装
@@ -59,7 +59,7 @@ dotnet add package Newtonsoft.Json
 
 打包命令(打包xxx项目)
 ```shell
-	donet pack xxx.csproj
+	donet pack [-o <保存包的路径>] xxx.csproj
 ```
 注意打包时会忽略以 ``.`` 开头的文件. 例如 ``.git`` 文件夹
 
